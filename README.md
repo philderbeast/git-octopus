@@ -71,7 +71,7 @@ The simpliest form of the model is to have a mainline branch, let's call it `mas
 This means that all the work is done in feature branches. Don't be afraid to have many, one branch per developer is fine. Keep feature branches independent from each other, that's the key for having a fluent delivery pipe.
 
 ### The workflow
-`git octopus` allows you to merge all you feature branches together at any moment so you can have an assembly of all the work that is going on and finally do a continuous integration job on that merge. here's how it works : 
+`git octopus` allows you to merge all feature branches together at any moment so you can have an assembly of all the work that is going on and finally do a continuous integration job on that merge. here's how it works : 
 
 A developer pushes a change on his feature branch. There is a job in your continuous integration system that will trigger and do this bash command :
 
